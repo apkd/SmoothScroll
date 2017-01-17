@@ -1,45 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="9ec8f525-55cf-419a-b3df-1436deadbeef">
-    <Name>Smooth Scroll</Name>
-    <Author>Rick Sladkey</Author>
-    <Version>1.1.0</Version>
-    <Description>Smooth scrolling for the Visual Studio text editor</Description>
-    <MoreInfoUrl>https://github.com/ricksladkey/SmoothScroll</MoreInfoUrl>
-    <Locale>1033</Locale>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="9ec8f525-55cf-419a-b3df-1436feedcafe" Version="1.1.1" Language="en-US" Publisher="github.com/apkd/SmoothScroll" />
+    <DisplayName>Smooth Scroll</DisplayName>
+    <Description xml:space="preserve">Smooth scrolling for Visual Studio 2017</Description>
+    <MoreInfo>https://github.com/apkd/SmoothScroll</MoreInfo>
     <License>license.txt</License>
     <Icon>package-icon.png</Icon>
     <PreviewImage>package-screenshot.png</PreviewImage>
-    <SupportedProducts>
-      <VisualStudio Version="10.0">
-        <Edition>Ultimate</Edition>
-        <Edition>Premium</Edition>
-        <Edition>Pro</Edition>
-        <Edition>IntegratedShell</Edition>
-      </VisualStudio>
-      <VisualStudio Version="11.0">
-        <Edition>Ultimate</Edition>
-        <Edition>Premium</Edition>
-        <Edition>Pro</Edition>
-        <Edition>IntegratedShell</Edition>
-      </VisualStudio>
-      <VisualStudio Version="12.0">
-        <Edition>Ultimate</Edition>
-        <Edition>Premium</Edition>
-        <Edition>Pro</Edition>
-        <Edition>IntegratedShell</Edition>
-      </VisualStudio>
-      <VisualStudio Version="14.0">
-       <Edition>Ultimate</Edition>
-       <Edition>Premium</Edition>
-       <Edition>Pro</Edition>
-       <Edition>IntegratedShell</Edition>
-     </VisualStudio>
-    </SupportedProducts>
-    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="5.0" />
-  </Identifier>
-  <References />
-  <Content>
-    <MefComponent>|SmoothScroll|</MefComponent>
-  </Content>
-</Vsix>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+  </Installation>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0.25904.2,16.0)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+</PackageManifest>

@@ -6,12 +6,11 @@ It's not complicated.  It gives you buttery smooth scrolling just like your favo
 
 ### Installation
 
-To install the extension, either use _Tools &rarr; Extensions and Updates&hellip;_ or go to the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/5fcc21b1-2c9b-4768-a5da-e309811d6b9e).
+You can download the latest .vsix installer from the [Releases page](https://github.com/apkd/SmoothScroll/releases).
 
 ![Two-finger scroll image](https://raw.github.com/ricksladkey/SmoothScroll/master/package-screenshot.png)
 
 #### Credits
 
-[Gesture icon](https://www.iconfinder.com/icons/80613/finger_gestureworks_scroll_two_icon)
-
-
+ * [Original project](https://github.com/ricksladkey/SmoothScroll)
+ * [Gesture icon](https://www.iconfinder.com/icons/80613/finger_gestureworks_scroll_two_icon)

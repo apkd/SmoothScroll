@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SmoothScroll")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("https://github.com/ricksladkey/SmoothScroll")]
+[assembly: AssemblyCompany("https://github.com/apkd/SmoothScroll")]
 [assembly: AssemblyProduct("SmoothScroll")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
